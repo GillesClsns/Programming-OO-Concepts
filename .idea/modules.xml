@@ -2,7 +2,17 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/P1-2022/P1-W1/Simple-algorithms/BMI/BMI.iml" filepath="$PROJECT_DIR$/P1-2022/P1-W1/Simple-algorithms/BMI/BMI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/P1-2022/P1-W1/Iterations-and-conditions/BMI-v2/BMI-v2.iml" filepath="$PROJECT_DIR$/P1-2022/P1-W1/Iterations-and-conditions/BMI-v2/BMI-v2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/P1-2022/P1-W1/Simple-algorithms/Begroeting/Begroeting.iml" filepath="$PROJECT_DIR$/P1-2022/P1-W1/Simple-algorithms/Begroeting/Begroeting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/P1-2022/P1-W1/Iterations-and-conditions/Bewerkingen/Bewerkingen.iml" filepath="$PROJECT_DIR$/P1-2022/P1-W1/Iterations-and-conditions/Bewerkingen/Bewerkingen.iml" />
+      <module fileurl="file://$PROJECT_DIR$/P1-2022/P1-W1/Iterations-and-conditions/Cowsay/Cowsay.iml" filepath="$PROJECT_DIR$/P1-2022/P1-W1/Iterations-and-conditions/Cowsay/Cowsay.iml" />
+      <module fileurl="file://$PROJECT_DIR$/P1-2022/P1-W1/Simple-algorithms/Leeftijd/Leeftijd.iml" filepath="$PROJECT_DIR$/P1-2022/P1-W1/Simple-algorithms/Leeftijd/Leeftijd.iml" />
+      <module fileurl="file://$PROJECT_DIR$/P1-2022/P1-W1/Simple-algorithms/Product/Product.iml" filepath="$PROJECT_DIR$/P1-2022/P1-W1/Simple-algorithms/Product/Product.iml" />
       <module fileurl="file://$PROJECT_DIR$/Programming-OO-Concepts.iml" filepath="$PROJECT_DIR$/Programming-OO-Concepts.iml" />
+      <module fileurl="file://$PROJECT_DIR$/P1-2022/P1-W1/Iterations-and-conditions/Sommeren/Sommeren.iml" filepath="$PROJECT_DIR$/P1-2022/P1-W1/Iterations-and-conditions/Sommeren/Sommeren.iml" />
+      <module fileurl="file://$PROJECT_DIR$/P1-2022/P1-W1/Iterations-and-conditions/StartToRun/StartToRun.iml" filepath="$PROJECT_DIR$/P1-2022/P1-W1/Iterations-and-conditions/StartToRun/StartToRun.iml" />
+      <module fileurl="file://$PROJECT_DIR$/P1-2022/P1-W1/Simple-algorithms/Vakantie/Vakantie.iml" filepath="$PROJECT_DIR$/P1-2022/P1-W1/Simple-algorithms/Vakantie/Vakantie.iml" />
     </modules>
   </component>
 </project>
