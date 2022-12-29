@@ -17,7 +17,6 @@ public class Leeftijd {
      */
     public static void main(String[] args) {
 
-        Scanner sc = new Scanner(System.in);
         Locale dutch = new Locale("nl", "BE");
 
         int day = Integer.parseInt(JOptionPane.showInputDialog("Geef je geboortedag: "));
