@@ -9,4 +9,5 @@ public class Main {
         System.out.println(verzameling.totaleOppervlakte());
         System.out.println(verzameling.totaalVolume());
     }
+
 }
