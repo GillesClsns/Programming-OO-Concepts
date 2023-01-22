@@ -24,12 +24,15 @@ public class Main {
         vliegtuigen.add(v5);
 
         vliegtuigen.forEach(System.out::println);
-        
+
+        /*while (vliegtuigIterator.hasNext()) { // The less-efficient iterator way :3
+            Vliegtuig vliegtuig = vliegtuigIterator.next();
+            if (vliegtuig.maatschappij().equals("KLM")) vliegtuigIterator.remove();
+        }*/
+
         vliegtuigen.removeIf(vliegtuig -> vliegtuig.maatschappij().equals("KLM"));
 
-        for (Vliegtuig vliegtuig : vliegtuigen)
-            System.out.println(vliegtuig);
-
+        vliegtuigen.forEach(System.out::println);
     }
 
 }

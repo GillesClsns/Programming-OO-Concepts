@@ -11,8 +11,8 @@ public class Boek extends Artikel {
     public Boek(String id, double prijs, String titel, String auteur) {
         super(id, prijs);
         this.titel = titel;
-        this.auteurs = new ArrayList<>();
-        this.auteurs.add(auteur);
+        auteurs = new ArrayList<>();
+        auteurs.add(auteur);
     }
 
     public String getTitel() {
@@ -24,11 +24,12 @@ public class Boek extends Artikel {
     }
 
     public void voegAuteurToe(String auteur) {
-        this.auteurs.add(auteur);
+        auteurs.add(auteur);
     }
 
     @Override
     public String toString() {
-        return String.format("%s \"%s\" (%s)", getId(), getTitel(), getAuteurs());
+        return String.format("%-8s %-40s", getId(), String.format("\"" + getTitel() + "\"" + " (%s)", getAuteurs()));
     }
+
 }

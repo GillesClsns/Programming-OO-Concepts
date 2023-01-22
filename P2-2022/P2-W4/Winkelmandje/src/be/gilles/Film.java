@@ -6,14 +6,13 @@ import java.util.List;
 public class Film extends Artikel {
 
     private final String titel;
-    private List<String> acteurs;
-
+    private final List<String> acteurs;
 
     public Film(String id, double prijs, String titel, String acteur) {
         super(id, prijs);
         this.titel = titel;
-        this.acteurs = new ArrayList<>();
-        this.acteurs.add(acteur);
+        acteurs = new ArrayList<>();
+        acteurs.add(acteur);
     }
 
     public String getTitel() {
@@ -25,12 +24,12 @@ public class Film extends Artikel {
     }
 
     public void voegActeurToe(String acteur) {
-        this.acteurs.add(acteur);
+        acteurs.add(acteur);
     }
 
     @Override
     public String toString() {
-        return String.format("%s \"%s\" (%s)", getId(), getTitel(), getActeurs());
+        return String.format("%-8s %-40s", getId(), String.format("\"" + getTitel() + "\"" + " (%s)", getActeurs()));
     }
 
 }

@@ -19,7 +19,7 @@ public class ArtikelLijn {
     }
 
     public double getPrijs() {
-        return artikel.getPrijs();
+        return artikel.getPrijs() * getAantal();
     }
 
     public void verhoogAantal() {
@@ -28,8 +28,7 @@ public class ArtikelLijn {
 
     @Override
     public String toString() {
-        return String.format("""
-                aantal  totaal
-                %-5d, %-2.2f EUR""", getAantal(), getPrijs());
+        return artikel.toString() + String.format("%6d %-4.2f EUR\n", getAantal(), getPrijs());
     }
+
 }

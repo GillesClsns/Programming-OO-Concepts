@@ -19,8 +19,5 @@ public class Voetbalclub {
         System.out.printf("Aantal actieve leden: %d%n", leden.getAantalActieveLeden());
         leden.printActieveLeden();
 
-        System.out.printf("Aantal leden: %d%n%s",
-                leden.getAantal(), leden.getLid(0));
-
     }
 }

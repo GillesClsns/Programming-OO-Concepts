@@ -53,7 +53,7 @@ public class Verzameling {
             if (figuur instanceof HeeftVolume heeftVolume)
                 volume += heeftVolume.volume();
         }
-        return volume;
+        return Math.round(volume);
 
     }
 

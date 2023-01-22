@@ -5,18 +5,18 @@ import java.util.List;
 
 public class Winkelmandje {
 
-    private final List<ArtikelLijn> artikelLijnen;
+    private final LinkedList<ArtikelLijn> artikelLijnen;
 
     public Winkelmandje() {
         this.artikelLijnen = new LinkedList<>();
     }
 
-    public void voegArtikelToe(ArtikelLijn artikel) {
-        artikelLijnen.add(artikel);
+    public void voegArtikelToe(ArtikelLijn artikelLijn) {
+        artikelLijnen.add(artikelLijn);
     }
 
-    public void verwijderArtikel(ArtikelLijn artikel) {
-        artikelLijnen.remove(artikel);
+    public void verwijderArtikel(ArtikelLijn artikelLijn) {
+        artikelLijnen.remove(artikelLijn);
     }
 
     public double getPrijs() {
@@ -29,8 +29,12 @@ public class Winkelmandje {
 
     @Override
     public String toString() {
-        return "Winkelmandje{" +
-                "artikelLijnen=" + artikelLijnen +
-                '}';
+        StringBuilder stringBuilder = new StringBuilder();
+        for (ArtikelLijn artikelLijn : artikelLijnen) {
+            stringBuilder.append(artikelLijn);
+        }
+
+        return stringBuilder.toString();
     }
+
 }
