@@ -14,8 +14,8 @@ public class Dubbels {
     }
 
     public void verwijderDubbels() {
-       Set<String> temporary = new HashSet<>(dubbels);
-       dubbels = temporary.stream().toList();
+        Set<String> temporary = new HashSet<>(dubbels);
+        dubbels = temporary.stream().toList();
     }
 
     @Override

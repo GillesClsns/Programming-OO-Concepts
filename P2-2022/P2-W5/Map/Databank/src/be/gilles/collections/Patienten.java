@@ -1,4 +1,6 @@
-package be.gilles;
+package be.gilles.collections;
+
+import be.gilles.instances.Patient;
 
 import java.util.*;
 

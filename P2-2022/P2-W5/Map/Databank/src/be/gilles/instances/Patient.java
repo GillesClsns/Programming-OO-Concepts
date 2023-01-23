@@ -1,4 +1,4 @@
-package be.gilles;
+package be.gilles.instances;
 
 public class Patient {
 

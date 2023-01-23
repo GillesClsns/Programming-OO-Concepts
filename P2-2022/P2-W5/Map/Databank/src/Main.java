@@ -1,7 +1,7 @@
-import be.gilles.Huisarts;
-import be.gilles.Huisartsen;
-import be.gilles.Patient;
-import be.gilles.Patienten;
+import be.gilles.instances.Huisarts;
+import be.gilles.collections.Huisartsen;
+import be.gilles.instances.Patient;
+import be.gilles.collections.Patienten;
 
 import java.util.Set;
 

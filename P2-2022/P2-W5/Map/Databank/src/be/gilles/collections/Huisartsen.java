@@ -1,8 +1,9 @@
-package be.gilles;
+package be.gilles.collections;
+
+import be.gilles.instances.Huisarts;
 
 import java.util.HashMap;
 import java.util.Map;
-import java.util.TreeMap;
 
 public class Huisartsen {
 
